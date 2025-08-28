@@ -1,8 +1,8 @@
-import java.util.Scanner;
-public class MenuC {
-        public static void main(String[] args) {
+public static void main(String[] args) {
+            Scanner entrada = new(Scanner(System.in))
+             int opcion = 0;
+
             
-            int opcion = entrada.nextInt();
             if(opcion == 1){
                 System.out.println("MENU PRODUCTOS");
                 System.out.println("1. Caffe latte");
@@ -27,22 +27,19 @@ public class MenuC {
                 System.out.println("3. COMPRAR TRES UNIDADES");
                 System.out.println("4. Volver al menu principal");
                 if(opcion == 1){
-                    System.out.println("Has elegido Caffe latte");
+                    System.out.println("Has elegido una unidad"); 
                 } else if(opcion == 2){
-                    System.out.println("Has elegido Chocolate");
+                    System.out.println("Has elegido dos unidades");
                 } else if(opcion == 3){
-                    System.out.println("Has elegido Tinto");
+                    System.out.println("Has elegido tres unidades");
                 } else if(opcion == 4){
                     System.out.println("Volviendo al menu principal");
                 } else {
                     System.out.println("Opcion invalida");
-                
-            } else if(opcion == 3){
-               
-            } else {
+                } 
+            }else {
                 System.out.println("Opcion invalida");          
-            }
-            }
+                }
     }
-}
+
 
